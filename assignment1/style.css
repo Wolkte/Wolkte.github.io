@@ -1,0 +1,75 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	width: auto;
+	border: 2px;
+	padding: 5%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #ababab;
+	
+	
+}
+
+
+div#container {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #78866b;
+
+	
+	
+}
+
+h1{
+	margin: auto;
+	
+	border: 5px #414141;
+	padding: 10px;
+	font-size: 2.5em;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	background-color: black;
+	color: whitesmoke;
+}
+h2{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	background-color: black;
+	color: whitesmoke;
+	margin: auto;
+	padding: 10px;
+	border: 5px;
+	
+}
+
+
+p{
+	
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #404040;
+
+
+}
+footer{
+	font-size: smaller;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: black;
+	color: whitesmoke;
+}
+
+

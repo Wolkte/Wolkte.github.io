@@ -1,0 +1,66 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	font-family: sans-serif;
+	background: #707070;
+	color: #e0e0de;
+	margin: 10px;
+	padding: 10px;
+	max-width: 350px;
+	
+}
+
+
+#container {
+	border: 1px solid rgb(51, 51, 50)
+}
+
+
+
+ul {
+	list-style: none;
+	padding-left: 0px;
+  }
+  a {
+	color: rgb(63, 75, 3);
+  }
+  
+  a:hover {
+	color: rgb(128,0,128);
+  }
+  
+ 
+ 
+  figure {
+	margin: 0px;
+  }
+
+  figure img {
+	max-width: 256px;
+	max-height: 256px;
+	width: 100%;
+  }
+
+  figcaption, footer {
+	font-size: 0.75em;
+  }
+
+
+
+
+
+
