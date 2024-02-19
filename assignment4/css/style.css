@@ -1,0 +1,72 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+	color: #565665;
+	
+}
+.bebas-neue-regular {
+	font-family: "Bebas Neue", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  }
+  
+
+h1{
+	
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+#p1{	
+position:fixed; top: 200px; left: 900px;
+rotate: 45deg;
+font-size: 250%;
+font-family:"Bebas Neue", sans-serif; 
+
+
+
+}
+#p2{
+	position:fixed; top: 190px; left: 690px;
+	rotate: -45deg;
+	font-size: 750%;
+}
+#p3{
+	position: fixed; top:255px; left: 905px ;
+	rotate:  -45deg;
+}
+#p4{
+position: fixed; top: 228px; left: 758px;
+font-size: 1150%;
+rotate: -45deg;
+}
+
+
+body {
+	background-color: #16161d;
+	font-family: "Bebas Neue", sans-serif;
+	
+	
+}
+footer{
+	text-align: center; 
+	
+}
+
+
+#container {
+	
+}
+
+
+
+
