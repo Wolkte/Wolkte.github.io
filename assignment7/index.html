@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	
+	<title>Magic 8 ball</title>
+	
+	<link rel="stylesheet" href="css/style.css">	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Ojuju:wght@200..800&display=swap" rel="stylesheet">
+
+
+	<script>
+
+		function someFunctionName() {
+			var answers = [
+				"Wrong",
+				"Not Quite",
+				"Really?",
+				"I'm not so sure about that one",
+				"Do you even like Dogs?",
+				"Not Even close",
+				"No",
+				"You are not fit to own a Dog",
+				"Maybe in a million years",
+				"Get away from me",
+
+			];
+		
+			var randomIndex = Math.floor(Math.random()*answers.length);
+	        var randomAnswer = answers[randomIndex];
+	        document.getElementById("response").innerHTML = randomAnswer;
+		
+		} //closes your function
+		
+		</script>
+	
+</head>
+
+
+<body style ="background-color: #373276;">
+
+  <div id="container">
+
+	<form>
+		<p id="Prompt"> What kind of Dog is the Best?</p>
+		<input type="text">
+		<input type="button" onclick="someFunctionName()" value="Lets find out!">
+	  </form>
+
+	  <p id="response"></p>
+	 
+
+
+
+  </div><!-- close "container" -->
+  
+
+</body>
+	
+</html> 
