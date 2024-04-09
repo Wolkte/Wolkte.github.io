@@ -1,0 +1,158 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body {
+	background-color: #292828af;
+}
+
+
+#container {
+	
+	margin: auto;
+	
+}
+
+h1{
+	text-align: center;
+	font-family: "Palanquin Dark";
+	text-shadow: 2px 2px 2px #404040;
+	font-size: 300%;
+	
+}
+.par1{
+	position: relative;
+	text-align: center;
+	font-size: 150%;
+	font-family: "Palanquin Dark";
+	
+}
+.World{
+	scale: 30%;
+	position: absolute;
+	top: -130px;
+	left: -625px;
+	box-shadow: 10px 10px 10px 10px black;
+	
+}
+
+.devotion{
+	scale: 30%;
+	position: absolute;
+	top: 225px;
+	left: -625px;
+	box-shadow: 10px 10px 10px 10px black;
+	
+}
+.Char{
+	scale: 30%;
+	position: absolute;
+	top: 575px;
+	left: -625px;
+	box-shadow: 10px 10px 10px 10px black;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+
+	.World{
+		scale: 50%;
+		position: absolute;
+		top: -130px;
+		left: -425px;
+		box-shadow: 10px 10px 10px 10px black;
+		
+	}
+	
+	.devotion{
+		scale: 50%;
+		position: absolute;
+		top: 225px;
+		left: -125px;
+		box-shadow: 10px 10px 10px 10px black;
+		
+	}
+	.Char{
+		scale: 50%;
+		position: absolute;
+		top: 475px;
+		left: -325px;
+		box-shadow: 10px 10px 10px 10px black;
+		
+	}
+	
+	
+	
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	.World{
+		scale: 60%;
+		position: absolute;
+		top: -50px;
+		left: -325px;
+		box-shadow: 10px 10px 10px 10px black;
+		
+	}
+	
+	.devotion{
+		scale: 60%;
+		position: absolute;
+		top: -50px;
+		left: 900px;
+		box-shadow: 10px 10px 10px 10px black;
+		
+	}
+	.Char{
+		scale: 60%;
+		position: absolute;
+		top: 450px;
+		left: 300px;
+		box-shadow: 10px 10px 10px 10px black;
+		
+	}
+	
+	
+	
+} /* closes 1024px+ */
+
+
+
