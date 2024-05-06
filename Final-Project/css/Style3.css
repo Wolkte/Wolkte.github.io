@@ -1,0 +1,309 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+	color:rgb(255, 255, 255);
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body {
+	background-color: #000000;
+}
+
+
+#container {
+	
+	margin: auto;
+	background: #2a3439
+	
+}
+
+header{
+	text-align: center;
+	font-family: "Jersey 25";
+	text-shadow: 2px 2px 2px #404040;
+	font-size: 300%;
+	padding: 10px
+	
+	
+}
+.par1{
+	position: relative;
+	text-align: center;
+	font-size: 150%;
+	font-family: "Roboto Mono";
+	padding-bottom: 500px;
+	
+}
+.article1{
+	scale: 90%;
+	position: absolute;
+	top: 450px;
+	left: 10px;
+	box-shadow: 10px 10px 10px 10px black;
+	
+}
+
+.article2{
+	
+	scale: 100%;
+	position: absolute;
+	top: 825px;
+	left: 10px;
+	box-shadow: 10px 10px 10px 10px black;
+	
+}
+.article3{
+	scale: 90%;
+	position: absolute;
+	top: 1125px;
+	left: 10px;
+	box-shadow: 10px 10px 10px 10px black;
+	
+}
+.button-container{
+		
+		border: 2px solid #8b1e1e;
+		
+		
+	}
+	.buttonrow{
+		
+		margin-right: 10px;
+		margin-left: 100px;
+		
+		
+		
+	}
+	.button1{
+		background-color: #8b1e1e;
+		padding: 10px;
+		width: 20%;
+		display: inline-block;
+		margin-left: 200px;
+		
+	}
+	.button2{
+		background-color: #8b1e1e;
+		padding: 10px;
+		width: 20%;
+		display: inline-block;
+		
+	}
+	.button3{
+		background-color: #8b1e1e;
+		padding: 10px;
+		width: 20%;
+		display: inline-block;
+		
+	}	
+	.button4{
+		background-color: #8b1e1e;
+		padding: 10px;
+		width: 20%;
+		display: inline-block;
+		
+	}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+
+	.article1{
+		scale: 70%;
+		position: absolute;
+		top: 330px;
+		left: 425px;
+		box-shadow: 10px 10px 10px 10px black;
+		
+	}
+	
+	.article2{
+		scale: 70%;
+		position: absolute;
+		top: 425px;
+		left: 25px;
+		box-shadow: 10px 10px 10px 10px black;
+		
+	}
+	.article3{
+		scale: 70%;
+		position: absolute;
+		top: 575px;
+		left: 325px;
+		box-shadow: 10px 10px 10px 10px black;
+		
+	}
+	.button-container{
+		
+		border: 2px solid #8b1e1e;
+		height: fit-content;
+		
+	}
+	.buttonrow{
+		
+		margin-right: 10px;
+		margin-left: 100px;
+		
+		
+	}
+	.button1{
+		background-color: #8b1e1e;
+		padding: 10px;
+		width: 20%;
+		display: inline-block;
+		margin-left: 130px;
+	}
+	.button2{
+		background-color: #8b1e1e;
+		padding: 10px;
+		width: 20%;
+		display: inline-block;
+	}
+	.button3{
+		background-color: #8b1e1e;
+		padding: 10px;
+		width: 20%;
+		display: inline-block;
+		
+	}	
+	.button4{
+		background-color: #8b1e1e;
+		padding: 10px;
+		width: 20%;
+		display: inline-block;
+		
+	}	
+	
+	
+	
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	.article1{
+		scale: 100%;
+		position: absolute;
+		top: 450px;
+		left: 1500px;
+		box-shadow: 10px 10px 10px 10px black;
+		
+	}
+	
+	.article2{
+		scale: 150%;
+		position: absolute;
+		top: 800px;
+		left: 900px;
+		box-shadow: 10px 10px 10px 10px black;
+		
+	}
+	.article3{
+		scale: 150%;
+		position: absolute;
+		top: 475px;
+		left: 300px;
+		box-shadow: 10px 10px 10px 10px black;
+		
+	}
+	section{
+		padding: 10px;
+		padding-bottom: 675px;
+		padding-left: 800px;
+		padding-right: 800px;
+		width: 500px;
+		margin: auto;
+		font-size: 1.35em;
+		border-width: 3px;
+		border-style: solid;
+		border-color: #8b1e1e;
+		line-height: 120%;
+	}
+	header{
+		text-align: center;
+		font-size: 300%;
+		padding: 15px;
+	}
+	.button-container{
+		
+		border: 2px solid #8b1e1e;
+		height: fit-content;
+		
+	}
+	.buttonrow{
+		
+		margin-right: 10px;
+		margin-left: 100px;
+		
+		
+	}
+	.button1{
+		background-color: #8b1e1e;
+		padding: 10px;
+		width: 20%;
+		display: inline-block;
+		margin-left: 230px;
+	}
+	.button2{
+		background-color: #8b1e1e;
+		padding: 10px;
+		width: 20%;
+		display: inline-block;
+	}
+	.button3{
+		background-color: #8b1e1e;
+		padding: 10px;
+		width: 20%;
+		display: inline-block;
+		
+	}	
+	.button4{
+		background-color: #8b1e1e;
+		padding: 10px;
+		width: 20%;
+		display: inline-block;
+		
+	}	
+	.par1{
+		padding-bottom: 500px;
+	}
+	
+	
+	
+} /* closes 1024px+ */
+
+
+
