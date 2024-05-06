@@ -39,7 +39,7 @@ header{
 	
 }
 .par1{
-	position: relative;
+	position: absolute;
 	text-align: center;
 	font-size: 150%;
 	font-family: "Roboto Mono";
